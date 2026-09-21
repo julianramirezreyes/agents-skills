@@ -58,13 +58,6 @@ todavía no estás listo para escribirlo.
 - **YAGNI** (You Aren't Gonna Need It): no construyas para un futuro hipotético. El código no
   escrito es el más barato de mantener.
 
-
-### 2.4 Estrategia *free-first* (obligatoria)
-
-- Empieza por la opción de menor coste operativo: estático/local → BaaS gratuito → edge/serverless → backend dedicado → autoalojamiento.
-- Escalar a una opción pagada, backend dedicado o autoalojamiento exige una excepción escrita: requisito no cubierto, alternativas descartadas, coste, responsable operativo, seguridad, respaldo y salida/migración.
-- **No existe acoplamiento cero.** El objetivo es mínimo acoplamiento necesario, dependencias hacia abstracciones en fronteras volátiles y máxima cohesión por responsabilidad.
-- Las skills, instrucciones y documentación creadas por este proyecto se escriben en español; skills externas instaladas pueden conservar su idioma original.
 ### 2.3 Otros principios que aplican siempre
 
 - **SoC** (Separation of Concerns): cada parte resuelve una preocupación (UI, dominio, persistencia).
@@ -76,6 +69,13 @@ todavía no estás listo para escribirlo.
 - **Least Privilege**: cada componente accede solo a lo que necesita (aplica a código y a seguridad).
 - **Make it work → make it right → make it fast**, en ese orden. Nunca optimices lo que no mides.
 - **High cohesion, low coupling**: lo que cambia junto vive junto; lo que no, se separa.
+
+### 2.4 Estrategia *free-first* (obligatoria)
+
+- Empieza por la opción de menor coste operativo: estático/local → BaaS gratuito → edge/serverless → backend dedicado → autoalojamiento.
+- Escalar a una opción pagada, backend dedicado o autoalojamiento exige una excepción escrita: requisito no cubierto, alternativas descartadas, coste, responsable operativo, seguridad, respaldo y salida/migración.
+- **No existe acoplamiento cero.** El objetivo es mínimo acoplamiento necesario, dependencias hacia abstracciones en fronteras volátiles y máxima cohesión por responsabilidad.
+- Las skills, instrucciones y documentación creadas por este proyecto se escriben en español; skills externas instaladas pueden conservar su idioma original.
 
 ---
 

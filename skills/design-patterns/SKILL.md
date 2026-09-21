@@ -43,5 +43,7 @@ Para cada decisión entrega problema, patrón, alternativa simple, beneficios, c
 
 ## References / Referencias
 
+- eferences/catalogo-patrones.md — catálogo de familias y alternativas.
+
 - `AGENTS.md` — catálogo GoF y arquitecturas.
 - `skills/software-architecture/SKILL.md` — límites y dirección de dependencias.
