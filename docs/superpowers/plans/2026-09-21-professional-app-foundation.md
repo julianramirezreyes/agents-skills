@@ -28,7 +28,7 @@
 
 ---
 
-### Tarea 1: Crear skills del núcleo arquitectónico
+### Task 1: Crear skills del núcleo arquitectónico
 
 **Archivos:**
 - Crear: `skills/software-architecture/SKILL.md`
@@ -85,7 +85,7 @@ git add skills/software-architecture/SKILL.md skills/design-patterns/SKILL.md sk
 git commit -m "feat(skills): add architecture decision guides"
 ```
 
-### Tarea 2: Crear skills de validación e infraestructura
+### Task 2: Crear skills de validación e infraestructura
 
 **Archivos:**
 - Crear: `skills/backendless-apps/SKILL.md`
@@ -134,7 +134,7 @@ git add skills/backendless-apps/SKILL.md skills/product-discovery/SKILL.md skill
 git commit -m "feat(skills): add free-first validation guides"
 ```
 
-### Tarea 3: Crear skills de calidad visual
+### Task 3: Crear skills de calidad visual
 
 **Archivos:**
 - Crear: `skills/design-system/SKILL.md`
@@ -182,7 +182,7 @@ git add skills/design-system/SKILL.md skills/motion-design/SKILL.md skills/visua
 git commit -m "feat(skills): add visual quality guides"
 ```
 
-### Tarea 4: Registrar la política y las skills
+### Task 4: Registrar la política y las skills
 
 **Archivos:**
 - Modificar: `AGENTS.md`
