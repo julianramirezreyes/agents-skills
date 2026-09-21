@@ -9,7 +9,7 @@ Crear una base reutilizable para agentes que permita validar aplicaciones con ra
 - Las skills, instrucciones y documentación creadas por el proyecto se escriben en español; las skills externas instaladas pueden conservar el idioma original.
 
 ## Tareas
-- [ ] FDN-01 — Escribir y revisar la especificación de arquitectura. Ruta: inline; evidencia: diseño conversacional aprobado; especificación confirmada en `710c012`; pendiente de revisión del usuario.
+- [x] FDN-01 — Escribir y revisar la especificación de arquitectura. Ruta: inline; evidencia: diseño conversacional aprobado; especificación revisada en español y confirmada en `c328f9b`; plan creado en `dbd4716`.
 - [ ] FDN-02 — Añadir skills de arquitectura, catálogo de patrones y decisión *free-first*. Ruta: delegación directa; disparador: múltiples archivos no triviales.
 - [ ] FDN-03 — Añadir skills de aplicaciones sin backend, descubrimiento de producto y despliegue. Ruta: delegación directa; disparador: múltiples archivos no triviales.
 - [ ] FDN-04 — Añadir skills de sistema de diseño, motion design y calidad visual. Ruta: delegación directa; disparador: múltiples archivos no triviales.
@@ -28,5 +28,5 @@ Crear una base reutilizable para agentes que permita validar aplicaciones con ra
 - Verificar con `git diff --check`.
 
 ## Progreso
-- Estado actual: FDN-01, especificación escrita y confirmada; pendiente de revisión del usuario.
-- Siguiente paso: revisar `docs/superpowers/specs/2026-09-21-professional-app-foundation-design.md`.
+- Estado actual: FDN-01 completada; plan de implementación creado y pendiente de revisión del usuario.
+- Siguiente paso: revisar `docs/superpowers/plans/2026-09-21-professional-app-foundation.md` y confirmar el método de ejecución.
