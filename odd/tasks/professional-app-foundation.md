@@ -10,7 +10,7 @@ Crear una base reutilizable para agentes que permita validar aplicaciones con ra
 
 ## Tareas
 - [x] FDN-01 — Escribir y revisar la especificación de arquitectura. Ruta: inline; evidencia: diseño conversacional aprobado; especificación revisada en español y confirmada en `c328f9b`; plan creado en `dbd4716`.
-- [ ] FDN-02 — Añadir skills de arquitectura, catálogo de patrones y decisión *free-first*. Ruta: delegación directa; disparador: múltiples archivos no triviales.
+- [x] FDN-02 — Añadir skills de arquitectura, catálogo de patrones y decisión *free-first*. Ruta: ejecución nativa autorizada; evidencia: commit `9185035`; comprobación estructural PASS.
 - [ ] FDN-03 — Añadir skills de aplicaciones sin backend, descubrimiento de producto y despliegue. Ruta: delegación directa; disparador: múltiples archivos no triviales.
 - [ ] FDN-04 — Añadir skills de sistema de diseño, motion design y calidad visual. Ruta: delegación directa; disparador: múltiples archivos no triviales.
 - [ ] FDN-05 — Actualizar el índice y reglas globales de `AGENTS.md`. Ruta: delegación directa; disparador: cambios documentales acoplados.
