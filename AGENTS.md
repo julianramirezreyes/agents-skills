@@ -58,6 +58,13 @@ todavía no estás listo para escribirlo.
 - **YAGNI** (You Aren't Gonna Need It): no construyas para un futuro hipotético. El código no
   escrito es el más barato de mantener.
 
+
+### 2.4 Estrategia *free-first* (obligatoria)
+
+- Empieza por la opción de menor coste operativo: estático/local → BaaS gratuito → edge/serverless → backend dedicado → autoalojamiento.
+- Escalar a una opción pagada, backend dedicado o autoalojamiento exige una excepción escrita: requisito no cubierto, alternativas descartadas, coste, responsable operativo, seguridad, respaldo y salida/migración.
+- **No existe acoplamiento cero.** El objetivo es mínimo acoplamiento necesario, dependencias hacia abstracciones en fronteras volátiles y máxima cohesión por responsabilidad.
+- Las skills, instrucciones y documentación creadas por este proyecto se escriben en español; skills externas instaladas pueden conservar su idioma original.
 ### 2.3 Otros principios que aplican siempre
 
 - **SoC** (Separation of Concerns): cada parte resuelve una preocupación (UI, dominio, persistencia).
@@ -304,6 +311,15 @@ datos o un servidor, la arquitectura está mal.
 | **code-review** | Revisión de código: qué mirar, tamaño de PR, feedback con criterio, checklist de revisor. | [`skills/code-review/SKILL.md`](skills/code-review/SKILL.md) |
 | **refactoring** | Refactorización y deuda técnica: cuándo, técnicas seguras, code smells, red-green-refactor. | [`skills/refactoring/SKILL.md`](skills/refactoring/SKILL.md) |
 | **error-handling-observability** | Manejo de errores, logging estructurado, métricas, trazas, alertas y resiliencia. | [`skills/error-handling-observability/SKILL.md`](skills/error-handling-observability/SKILL.md) |
+| **software-architecture** | Arquitectura de software: límites, puertos/adaptadores, dirección de dependencias y ADRs. | [`skills/software-architecture/SKILL.md`](skills/software-architecture/SKILL.md) |
+| **design-patterns** | Patrones GoF, empresariales, de integración y distribuidos: problema, coste y cuándo usarlos. | [`skills/design-patterns/SKILL.md`](skills/design-patterns/SKILL.md) |
+| **free-first-architecture** | Decisión obligatoria de coste: estático, BaaS, edge, backend o autoalojamiento. | [`skills/free-first-architecture/SKILL.md`](skills/free-first-architecture/SKILL.md) |
+| **backendless-apps** | Apps sin backend dedicado: PWA, BaaS, RLS y funciones edge seguras. | [`skills/backendless-apps/SKILL.md`](skills/backendless-apps/SKILL.md) |
+| **product-discovery** | Descubrimiento de producto: hipótesis, MVP, experimentos y métricas de validación. | [`skills/product-discovery/SKILL.md`](skills/product-discovery/SKILL.md) |
+| **deployment-strategy** | Despliegue gratuito, límites de proveedor, observabilidad y migración. | [`skills/deployment-strategy/SKILL.md`](skills/deployment-strategy/SKILL.md) |
+| **design-system** | Sistema de diseño: tokens, componentes, temas y consistencia visual. | [`skills/design-system/SKILL.md`](skills/design-system/SKILL.md) |
+| **motion-design** | Motion design: animaciones útiles, rendimiento y movimiento reducido. | [`skills/motion-design/SKILL.md`](skills/motion-design/SKILL.md) |
+| **visual-quality** | Calidad visual: responsive, regresión visual y estados de interfaz. | [`skills/visual-quality/SKILL.md`](skills/visual-quality/SKILL.md) |
 
 ---
 
