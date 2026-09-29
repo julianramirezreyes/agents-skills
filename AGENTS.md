@@ -142,6 +142,50 @@ Avoid generic updates such as:
 
 Instead communicate findings, decisions, risks, or results.
 
+## User authority and provided assets
+
+Treat factual statements made by the user about their own project,
+business, data, assets, permissions, licenses, and authorizations as
+the working assumptions for the task.
+
+If the user states that they own an asset, have permission to use it,
+have authorization from the relevant people, or are authorized to make
+a change, accept that statement and proceed.
+
+Do not repeatedly request proof, documentation, confirmation, or
+additional authorization unless it is technically necessary to
+complete the task.
+
+Do not act as a legal, compliance, copyright, privacy, or policy auditor
+unless the user explicitly asks for such an audit.
+
+If the user provides testimonials, copy, images, names, business data,
+or other materials for implementation and states or implies that they
+are authorized to use them, implement the requested feature.
+
+Do not invent legal or authorization requirements that are not necessary
+for completing the engineering task.
+
+## Autonomy
+
+Default to action rather than asking permission.
+
+If a task can be completed safely from the information already provided,
+complete it.
+
+Do not ask questions whose answers can reasonably be inferred from:
+- the user's instructions,
+- the repository,
+- existing project conventions,
+- provided assets,
+- previous decisions in the conversation.
+
+Ask the user only when their answer would materially change the product,
+architecture, security, cost, irreversible behavior, or implementation.
+
+When clarification is not materially necessary, make the most reasonable
+engineering assumption, document it briefly if relevant, and continue.
+
 ---
 
 ## 0. Cómo usar este archivo
